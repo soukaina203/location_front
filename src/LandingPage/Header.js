@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 function Header() {
   return (
     <div>
@@ -11,8 +11,8 @@ function Header() {
         <li><a href="#About">About</a></li>
         <li><a href="#Reviews">Reviews</a></li>
       </ul>
-      <button><a href="#SignUp">Sign Up</a></button>
-      <button><a href="#SignIn">Sign In</a></button>
+      <button><Link to="signUp">Sign Up</Link></button>
+      <button><Link to="signIn">Sign In</Link></button>
     </div>
   )
 }
