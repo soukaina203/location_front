@@ -7,13 +7,14 @@ import Services from './Services'
 import Reviews from './Reviews'
 function LandingPage() {
   return (
-    <div>
+    <div className='flex flex-col bg-white1
+    '>
       <Header />
       <Home />
       <About />
-      <Ride />
-      <Services />
-      <Reviews />
+      {/* <Ride /> */}
+      {/* <Services /> */}
+      {/* <Reviews /> */}
 
     </div>
   )

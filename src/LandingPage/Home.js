@@ -3,14 +3,19 @@ import React from 'react'
 function Home() {
   return (
     <div id='Home'>
-      <img src="/imgs/car.png" alt="" />
+      <img src="/imgs/car.png" alt="" className='h-[100vh] w-[100vw] mt-[-2rem]' />
       <div>
-        <h1> <p>Looking</p> to rent a car  </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Odit, ea minima quidem obcaecati ducimus deleniti,
-             fugiat delectus eveniet dolorum voluptates eos consectetur
-              dolores!
-             Ex aliquam ea praesentium, itaque est culpa.</p>
+        <div className='text-[4.5rem] font-semibold mt-[-26rem] ml-16'>
+          <p className='text-orange-600'>
+            Looking To
+          </p>
+          <p>Rent A Car</p>
+        </div >
+        <div className=' w-[18rem] h-[50px] bg-slate-700 font-semibold ml-16'>
+
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Odit, .</p>
+        </div>
       </div>
     </div>
   )
