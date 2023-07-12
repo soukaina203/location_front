@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <div id='Home'>
-      <img src="/imgs/car.png" alt="" className='h-[100vh] w-[100vw] mt-[-2rem]' />
+      <img src="/imgs/car.png" alt="" className='h-[100vh] w-[100vw] mt-[1rem] z-4' />
       <div>
         <div className='text-[4.5rem] font-semibold mt-[-26rem] ml-16'>
           <p className='text-orange-600'>

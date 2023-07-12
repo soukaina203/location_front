@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import {BrowserRouter as Router ,Link ,Route,Routes} from 'react-router-dom'
 import LandingPage from './LandingPage/LandingPage';
 import SignUp from './Auth/SignUp';

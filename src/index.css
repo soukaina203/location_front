@@ -14,4 +14,8 @@
   .underlineHover:hover::after {
     transform: scaleX(1);
   }
+  .iconDiv{
+    width: 16rem;
+    background-color: rgb(149, 111, 184)
+  }
 @tailwind utilities;

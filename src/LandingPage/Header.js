@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 function Header() {
   return (
-    <div className='flex flex-row font-body gap-[2.8rem] font-semibold bg-white1 z-10'>
+    <div className='flex flex-row font-body gap-[2.8rem] font-semibold bg-white1 w-[100vw] z-10 fixed'>
   <img src="/imgs/jeep.png" alt="" className="w-[50px] h-[50px] mt-[15px] ml-[10px] "/>
 
       <ul className='flex gap-5 mt-[29.2px] ml-10 relative right-[-20rem] '>

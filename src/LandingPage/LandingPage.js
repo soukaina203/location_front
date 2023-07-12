@@ -12,7 +12,7 @@ function LandingPage() {
       <Header />
       <Home />
       <About />
-      {/* <Ride /> */}
+      <Ride />
       {/* <Services /> */}
       {/* <Reviews /> */}
 
